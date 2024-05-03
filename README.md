@@ -1,10 +1,9 @@
 # Crud
 
-![GitHub repo size](https://img.shields.io/github/repo-size/iuricode/README-template?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/iuricode/README-template?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/iuricode/README-template?style=for-the-badge)
-![Bitbucket open issues](https://img.shields.io/bitbucket/issues/iuricode/README-template?style=for-the-badge)
-![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/iuricode/README-template?style=for-the-badge)
+![Language used](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
+![Language used](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)
+![DataBase Used](https://img.shields.io/badge/Oracle_Sql_Developer-white?style=for-the-badge&logo=oracle&logoColor=d3d3d3)
+![Ides used](https://img.shields.io/badge/-Visual%20Studio%20-333333?style=flat&logo=visual-studio-code&logoColor=A020F0)
 
 The project aims to streamline data insertion via a web interface, which will subsequently be added to tables within a database. To achieve this goal, we intend to develop a web application that allows users to input information intuitively through a browser, with the data being stored in an organized and secure manner within a database.
 
