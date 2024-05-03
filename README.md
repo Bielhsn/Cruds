@@ -25,19 +25,18 @@ Before you begin, please ensure you have met the following requirements:
 - The framework version should be 8.0 or the most updated.
 - Do not enable Visual Studio to automatically configure HTTPS.
 - Add the following NuGet Packages:
-    • Microsoft.EntityFrameworkCore
-    • Oracle.EntityFrameworkCore
-    • Microsoft.EntityFrameworkCore.Tools
+- [X] Microsoft.EntityFrameworkCore
+- [X] Oracle.EntityFrameworkCore
+- [X] Microsoft.EntityFrameworkCore.Tools
 - In Program.cs for your database, change the following:
-    • The host
-    • The port
-    • The SID
-    • The User
-    • The Password
+- [X] The host
+- [X] The port
+- [X] The SID
+- [X] The User
+- [X] The Password
 - In Package Manager Console, execute the following commands:
-
-    • Add-Migration intitdb
-    • Update-Database
+- [X] Add-Migration intitdb
+- [X] Update-Database
 
 ## 🤝 Team
 
