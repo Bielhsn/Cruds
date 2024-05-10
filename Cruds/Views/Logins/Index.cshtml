@@ -2,13 +2,19 @@
 
 @{
     ViewData["Title"] = "Index";
-    Layout = "~/Views/Shared/_Layout.cshtml";
+    Layout = "~/Views/Shared/Login.cshtml";
 }
 
-<h1>Index</h1>
+<head>
+    <link href="../Layout/Index.css" rel="stylesheet"></link>
 
+
+</head>
+<header>
+    <h1 class="teste">Index</h1>
+</header>
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create">Criar Novo Usuário</a>
 </p>
 <table class="table">
     <thead>
@@ -32,9 +38,9 @@
                 @Html.DisplayFor(modelItem => item.Senha)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.id">Delete</a>
+                <a asp-action="Edit" asp-route-id="@item.id">Editar</a> |
+                <a asp-action="Details" asp-route-id="@item.id">Detalhes</a> |
+                <a asp-action="Delete" asp-route-id="@item.id">Deletar</a>
             </td>
         </tr>
 }
