@@ -5,11 +5,8 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Index</h1>
+<h1>Avalliações</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
 <table class="table">
     <thead>
         <tr>
@@ -32,11 +29,14 @@
                 @Html.DisplayFor(modelItem => item.Comentário)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                <button asp-action="Edit" asp-route-id="@item.Id">Editar</button> |
+                <button asp-action="Details" asp-route-id="@item.Id">Detalhes</button> |
+                <button asp-action="Delete" asp-route-id="@item.Id">Deletar</button>
             </td>
         </tr>
 }
     </tbody>
 </table>
+<p>
+    <button asp-action="Create">Criar nova avaliação</button>
+</p>

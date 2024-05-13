@@ -5,11 +5,8 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
     }
 
-    <h1>Index</h1>
+    <h1>Registro</h1>
 
-    <p>
-        <a asp-action="Create">Criar novo Usuário </a>
-    </p>
     <table class="table">
         <thead>
             <tr>
@@ -49,7 +46,13 @@
                 <td>
                     @Html.DisplayFor(modelItem => item.Confirme_o_Email)
                 </td>
+                <td>
+                    <button asp-action="Details" asp-route-id="@item.Id">Detalhes</button> |
+                </td>
             </tr>
 }
         </tbody>
     </table>
+<p>
+    <button asp-action="Create">Criar novo Usuário </button>
+</p>
